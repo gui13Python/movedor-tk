@@ -1,11 +1,7 @@
-from ctypes.wintypes import DOUBLE
-from plistlib import InvalidFileException
+
 from tkinter  import *
 import tkinter
 from tkinter.ttk import Progressbar
-from turtle import width
-from numpy import size
-import pyautogui
 import os 
 from shutil import ExecError, copyfile
 from tkinter import filedialog
@@ -67,7 +63,7 @@ def copia(m):
         
         
           
-            #def barra(m):
+            
             cont = 0
             etapas=m/100
             while cont < etapas:
